@@ -23,4 +23,5 @@ chmod +x gemini_mapper.sh
 
 # Output
 If Gemini-enabled keys are found, results will be saved in:
+
 gemini_exposed.txt

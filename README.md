@@ -25,3 +25,6 @@ chmod +x gemini_mapper.sh
 If Gemini-enabled keys are found, results will be saved in:
 
 gemini_exposed.txt
+
+
+# Thanks to https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules

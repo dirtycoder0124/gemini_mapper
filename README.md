@@ -19,4 +19,5 @@ and report any potentially exploitable keys along with their source location.
 
 # Run the Script
 chmod +x gemini_mapper.sh
+
 ./gemini_mapper.sh domains.txt

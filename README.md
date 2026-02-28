@@ -6,13 +6,13 @@ Just provide a list of domains/subdomains and the script will automatically craw
 
 Give it a list of domains or subdomains — the script will:
 
-Crawl HTML pages
+1. Crawl HTML pages
 
-Discover linked JavaScript files
+2. Discover linked JavaScript files
 
-Extract exposed Google API keys
+3. Extract exposed Google API keys
 
-Test if they have Gemini API access
+4. Test if they have Gemini API access
 
 and report any potentially exploitable keys along with their source location.
 
@@ -20,3 +20,7 @@ and report any potentially exploitable keys along with their source location.
 chmod +x gemini_mapper.sh
 
 ./gemini_mapper.sh subdomains.txt
+
+# Output
+If Gemini-enabled keys are found, results will be saved in:
+gemini_exposed.txt
